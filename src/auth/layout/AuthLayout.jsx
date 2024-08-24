@@ -10,20 +10,20 @@ export const AuthLayout = ({ children, title = '' }) => {
             justifyContent="center"
             sx={ { 
                     minHeight: '100vh', 
-                    backgroundColor: '#62152d', 
                     padding: 4 
                 } }>
 
             <Grid item
                 className='box-shadow border'
                 xs={3}
+                boxShadow='0 -1px 20px #ca668b'
                 sx={{ 
                     backgroundColor: 'white', 
                     padding: 3, 
                     borderRadius: 2
                     }}>
                 
-                <Typography variant='h5' sx={{ mb: 1 }}> { title } </Typography>
+                <Typography variant='h4' sx={{ mb: 1 }} textAlign='center' fontFamily='New Amsterdam' color='primary.main'> SchoolHub - { title } </Typography>
 
                 { children }
                 

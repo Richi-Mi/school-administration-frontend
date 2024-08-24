@@ -57,7 +57,7 @@ export const LoginScreen = () => {
                     alignItems='center'
                     justifyContent='center'>
 
-                    <Grid item xs={ 4 } lg={ 4 }>
+                    <Grid item container xs={ 4 } lg={ 4 } justifyContent='center' alignContent='center'>
                         <SchoolIcon sx={{
                             fontSize: 120,
                             color: 'primary.main'

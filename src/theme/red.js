@@ -12,5 +12,11 @@ export const redTheme = createTheme({
         error: {
             main: red.A400
         }
+    },
+    typography: {
+        fontFamily: [
+            'New Amsterdam',
+            'Roboto'
+        ]
     }
 })
