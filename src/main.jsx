@@ -6,6 +6,7 @@ import './index.css'
 
 import { redTheme } from './theme/red.js'
 import { LoginScreen } from './auth/pages/LoginScreen.jsx'
+import { RegisterScreen } from './auth/pages/RegisterScreen.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 
@@ -13,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
     <ThemeProvider theme={ redTheme }>
 
-      <LoginScreen />
+      <RegisterScreen />
 
     </ThemeProvider>
   

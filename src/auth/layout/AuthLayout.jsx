@@ -18,7 +18,7 @@ export const AuthLayout = ({ children, title = '' }) => {
                 xs={3}
                 boxShadow='0 -1px 20px #ca668b'
                 sx={{ 
-                    backgroundColor: 'white', 
+                    backgroundColor: '#f9f9f9', 
                     padding: 3, 
                     borderRadius: 2
                     }}>
